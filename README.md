@@ -32,7 +32,7 @@ A short guide to help you get started quickly.
 
 Rename the folder as well as any references.
 
-`com.elgato.template.sdPlugin` with `my.domain.plugin-name.sdPlugin`
+`gg.frontpage.streamdeck-stemplayer.sdPlugin` with `my.domain.plugin-name.sdPlugin`
 
 > [!IMPORTANT]  
 > When sym-linking the plugin, the folder name must end with `.sdPlugin`.
@@ -54,7 +54,7 @@ You can either clone the javascript library or add it as a submodule to your rep
 You can get started in app.js!
 
 ```javascript
-const myAction = new Action('com.elgato.template.action');
+const myAction = new Action('gg.frontpage.streamdeck-stemplayer.play');
 
 /**
  * The first event fired when Stream Deck starts
@@ -71,3 +71,24 @@ myAction.onDialRotate(({ action, context, device, event, payload }) => {
   console.log('Your dial code goes here!');
 });
 ```
+
+### Symbink
+
+
+```
+mklink /D C:\Users\%USERNAME%\AppData\Roaming\Elgato\StreamDeck\Plugins\gg.frontpage.streamdeck-stemplayer.sdPlugin %cd%\src\gg.frontpage.streamdeck-stemplayer.sdPlugin
+```
+
+
+## Documentation
+
+- Nur ein Stem kann gleichzeitig aktiv sein
+
+
+
+
+- Track
+- Loop Start: 10.
+- Loop End: null
+
+- Sampels

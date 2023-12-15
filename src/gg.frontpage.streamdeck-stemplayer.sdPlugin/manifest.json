@@ -1,0 +1,57 @@
+{
+	"SDKVersion": 2,
+	"Author": "frontpage e.V.",
+	"CodePath": "app.html",
+	"Description": "Control the Stem Player with your Stream Deck",
+	"Name": "Stem Player",
+	"Icon": "actions/template/assets/stem",
+	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"Version": "1.0.2",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Stem Player",
+	"CategoryIcon": "actions/template/assets/stemIcon",
+	"Actions": [
+		{
+			"Icon": "actions/template/assets/playImage",
+			"Name": "Play Action",
+			"States": [
+				{
+					"Image": "actions/template/assets/play"
+				}
+			],
+			"Tooltip": "This is an example tooltip",
+			"UUID": "gg.frontpage.streamdeck-stemplayer.play",
+			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/template/assets/stopImage",
+			"Name": "Stop Action",
+			"States": [
+				{
+					"Image": "actions/template/assets/stop"
+				}
+			],
+			"Tooltip": "This is an example tooltip",
+			"UUID": "gg.frontpage.streamdeck-stemplayer.stop"
+		},
+		{
+			"Icon": "actions/template/assets/toggleImage",
+			"Name": "Toggle Action",
+			"States": [
+				{
+					"Image": "actions/template/assets/toggle"
+				}
+			],
+			"Tooltip": "This is an example tooltip",
+			"UUID": "gg.frontpage.streamdeck-stemplayer.toggle"
+		}
+	]
+}

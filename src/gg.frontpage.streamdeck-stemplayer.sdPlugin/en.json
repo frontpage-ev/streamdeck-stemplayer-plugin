@@ -1,0 +1,28 @@
+{
+  "Description": "Use this to create your own plugin", 
+  "Name": "Stem Player",
+  "Category": "Templates",
+  "gg.frontpage.streamdeck-stemplayer.play": {
+    "Name": "Play",
+    "Tooltip": "Start playing selected stem"
+  },
+  "gg.frontpage.streamdeck-stemplayer.stop": {
+    "Name": "Stop",
+    "Tooltip": "Stop playing current stem"
+  },
+  "gg.frontpage.streamdeck-stemplayer.toggle": {
+    "Name": "Toggle",
+    "Tooltip": "Toggle playing current stem"
+  },
+  "Localization": {
+    "More info": "More info",
+    "Message": "Message",
+    "Click Me": "Click Me",
+    "Button": "Button",
+    "More": "More",
+    "My name": "My name",
+    "My title": "My title",
+    "My message": "My message",
+    "My button": "My button"
+  }
+}

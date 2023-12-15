@@ -1,0 +1,29 @@
+{
+  "Description": "Nimm diese Vorlage für dein erstes Plugin", 
+  "Name": "Stem Player",
+  "Category": "Templates", 
+  "gg.frontpage.streamdeck-stemplayer.play": {
+    "Name": "Play",
+    "Tooltip": "Startet die Wiedergabe des Stem"
+  },
+  "gg.frontpage.streamdeck-stemplayer.stop": {
+    "Name": "Stop",
+    "Tooltip": "Stoppt die Wiedergabe des Stem"
+  },
+  "gg.frontpage.streamdeck-stemplayer.toggle": {
+    "Name": "Toggle",
+    "Tooltip": "Toggelt die Wiedergabe des Stem"
+  },
+  "Localization": {
+    "More info": "Mehr Infos",
+    "Message": "Nachricht",
+    "Click Me": "Klicke mich",
+    "Button": "Taste",
+    "More": "Mehr",
+    "My name": "Mein Name",
+    "My title": "Mein Titel",
+    "My message": "Meine Nachricht",
+    "My button": "Meine Taste"
+
+  }
+}
