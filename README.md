@@ -1,24 +1,21 @@
+# Stem Player for Stream Deck Plugin
 
-# Stream Deck Plugin Template
+> [!IMPORTANT]
+> This software is just the Stream Deck Plugin. You need
+> the [Stem Player](https://github.com/frontpage-ev/streamdeck-stemplayer) too to use it.
 
-The `Stream Deck Plugin Template` is a template to let you get started quickly when writing a JavaScript plugin for [Stream Deck](https://developer.elgato.com/documentation/stream-deck/). `Stream Deck Plugin Template` requires Stream Deck 6.0 or later.
+![Stem Player for Stream Deck](https://wiki.frontpage.gg/software/zqm99x0aod.png)
 
-## Description
+## Documentation
 
-`Stream Deck Plugin Template` is a complete plugin that shows you how to
-
-- load and save settings using Stream Deck's persistent store
-- setup and communicate with the Property Inspector
-- pass messages directly from Property Inspector to the plugin (and vice versa)
-- localize your Property Inspector's UI to another language
+The documentation for the Stem Player for Stream Deck is
+available [here](https://wiki.frontpage.gg/de/voc/software/streamdeck-stemplayer).
 
 ## Features
 
-- code written in Javascript
-- cross-platform (macOS, Windows)
-- localization support
-- styled [Property Inspector](https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/) included
-- Property Inspector contains all required boilerplate code to let you instantly work on your plugin's code.
+- Stop playback of current stem
+- Toggle play/pause of current stem
+- Play specific stem
 
 ## Quick Start Guide
 
