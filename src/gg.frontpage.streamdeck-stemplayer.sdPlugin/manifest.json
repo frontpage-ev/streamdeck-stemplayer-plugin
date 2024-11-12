@@ -2,11 +2,11 @@
 	"SDKVersion": 2,
 	"Author": "frontpage e.V.",
 	"CodePath": "app.html",
-	"Description": "Control the Stem Player with your Stream Deck",
+	"Description": "Control the Stem Player with your Stream Deck. \"Stem Player for Stream Deck\" is a specially designed software aimed at controlling music stems (individual parts of a music track such as bass, drums, vocals, etc.) via the popular Stream Deck interface. This integration allows users to control, mix and manipulate elements of a song in real time.\n\nThis software is just the Stream Deck Plugin. You need the Stem Player software too to use it. A free download is available at the helpful links below.",
 	"Name": "Stem Player",
-	"Icon": "actions/template/assets/stem",
-	"URL": "https://www.elgato.com/en/gaming/stream-deck",
-	"Version": "1.0.2",
+	"Icon": "actions/template/assets/stemIcon",
+	"URL": "https://github.com/frontpage-ev/streamdeck-stemplayer/wiki",
+	"Version": "1.0.3",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
@@ -17,7 +17,7 @@
 		}
 	],
 	"Category": "Stem Player",
-	"CategoryIcon": "actions/template/assets/stemIcon",
+	"CategoryIcon": "actions/template/assets/stemCategory",
 	"Actions": [
 		{
 			"Icon": "actions/template/assets/playImage",
@@ -27,7 +27,7 @@
 					"Image": "actions/template/assets/play"
 				}
 			],
-			"Tooltip": "This is an example tooltip",
+			"Tooltip": "Start playing selected stem",
 			"UUID": "gg.frontpage.streamdeck-stemplayer.play",
 			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
 		},
@@ -39,7 +39,7 @@
 					"Image": "actions/template/assets/stop"
 				}
 			],
-			"Tooltip": "This is an example tooltip",
+			"Tooltip": "Stop playing current stem",
 			"UUID": "gg.frontpage.streamdeck-stemplayer.stop"
 		},
 		{
@@ -50,7 +50,7 @@
 					"Image": "actions/template/assets/toggle"
 				}
 			],
-			"Tooltip": "This is an example tooltip",
+			"Tooltip": "Toggle playing current stem",
 			"UUID": "gg.frontpage.streamdeck-stemplayer.toggle"
 		}
 	]

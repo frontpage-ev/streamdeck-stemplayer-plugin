@@ -1,5 +1,5 @@
 {
-  "Description": "Use this to create your own plugin", 
+  "Description": "Control the Stem Player with your Stream Deck. \"Stem Player for Stream Deck\" is a specially designed software aimed at controlling music stems (individual parts of a music track such as bass, drums, vocals, etc.) via the popular Stream Deck interface. This integration allows users to control, mix and manipulate elements of a song in real time.\n\nThis software is just the Stream Deck Plugin. You need the Stem Player software too to use it. A free download is available at the helpful links below.",
   "Name": "Stem Player",
   "Category": "Templates",
   "gg.frontpage.streamdeck-stemplayer.play": {
